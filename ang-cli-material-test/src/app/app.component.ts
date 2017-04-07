@@ -7,4 +7,8 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'Christian Hamelin';
+
+  coderFunc = function() {
+  	console.log('yo');
+  }
 }
